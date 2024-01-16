@@ -1,14 +1,12 @@
 from setuptools import setup
+import codecs
 
 setup(
     name='Videocreate-projem',
     version='1.0',
-    packages=[''],
-    url='',
     license='',
     author='Sukru',
-    author_email='',
-    description=''
+    description='videocreate'
     packages=find_packages(),
     package_data={'': ['*.yaml', '*.json']},    # This will include all yaml files in package
 
